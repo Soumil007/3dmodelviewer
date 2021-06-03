@@ -1,0 +1,39 @@
+model-viewer#helmet{
+  height: 600px;
+  width: 600px;
+  top: 200px;
+  background-color: beige;
+  border: 1px solid bisque;
+  /* padding: 50px; */
+}
+
+button.Annot{
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: blue;
+  box-sizing: border-box;
+}
+
+button[slot="hotspot-ear"]{
+  --min-hotspot-opacity: 0;
+  background-color: blue;
+}
+
+button[slot="hotspot-mouth"]{
+  --min-hotspot-opacity: 0;
+  background-color: yellow;
+}
+#annotation{
+  background-color: #888888;
+  position: absolute;
+  transform: translate(10px, 10px);
+  border-radius: 10px;
+  padding: 10px;
+}
+/* This keeps child nodes hidden while the element loads */
+:not(:defined) > * {
+  display: none;
+}
