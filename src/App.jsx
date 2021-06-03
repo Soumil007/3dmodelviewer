@@ -64,7 +64,7 @@ function App() {
         :null}
           
         </button>
-        <button className="Annot"
+        <button className="Annot" 
         value="button2"
         onClick={(e)=>setClicked(e.target.value)}
         slot="hotspot-mouth" data-position="-762.051 -275.613 333.8038" data-normal="0 -0.2331 0.9724">
