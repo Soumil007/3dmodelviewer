@@ -24,14 +24,14 @@ function App() {
     const currOrbitVal = helmet.current.getCameraOrbit();
     console.log(currOrbitVal);
     // helmet.current.autoRotate = true;
-    helmet.current.cameraOrbit = "0deg 75deg 105%";
+    helmet.current.cameraOrbit = "0deg 75deg 155%";
     
   }
   function setCameraOrbit(orbit){
     const currOrbitVal = helmet.current.getCameraOrbit();
     console.log(currOrbitVal);
     // helmet.current.panning = false;
-    helmet.current.cameraOrbit = "0deg 75deg 105%";
+    helmet.current.cameraOrbit = "0deg 75deg 155%";
     helmet.current.cameraOrbit = orbit;
     // helmet.current.autoRotate = false;
     // modelViewer.cameraOrbit = orbit;
