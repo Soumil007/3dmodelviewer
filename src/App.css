@@ -2,7 +2,7 @@ model-viewer#helmet{
   height: 300px;
   width: 300px;
   top: 200px;
-  background-color: skyblue;
+  background-color: beige;
   border: 1px solid bisque;
   /* padding: 50px; */
 }
