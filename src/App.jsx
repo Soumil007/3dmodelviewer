@@ -45,7 +45,7 @@ function App() {
         id="helmet"
         camera-controls 
         alt="A 3d helmet"
-        src="./Helmet.glb"
+        src="./scene.gltf"
         loading = "eager"
         // auto-rotate
         shadow-intesity = "1"
