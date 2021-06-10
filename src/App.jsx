@@ -46,11 +46,17 @@ function App() {
         camera-controls 
         alt="A 3d helmet"
         src="./Helmet.glb"
-        loading = "eager"
+        loading = "lazy"
         // auto-rotate
         shadow-intesity = "1"
         // ar
-        camera-orbit="0deg 75deg 105%"
+        camera-orbit="0deg 75deg 155%"
+        //trying to restrict camera movement to one axis (horizontally)
+        //Mentioned way is setting phi of max-camera-orbit and min-camera-orbit to same value
+
+        max-camera-orbit = "auto 80deg 155%"
+        min-camera-orbit = "auto 80deg 155%"
+
         shadow-intensity="1" shadow-softness="0"
       >
       {/* camera-orbit="300deg 75deg 100%" */}
