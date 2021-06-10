@@ -46,7 +46,7 @@ function App() {
         camera-controls 
         alt="A 3d helmet"
         src="./Helmet.glb"
-        loading = "lazy"
+        loading = "eager"
         // auto-rotate
         shadow-intesity = "1"
         // ar
